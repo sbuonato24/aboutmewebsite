@@ -1,8 +1,10 @@
 <html>
+    <div>
     <head>
         <style>
         body {
             background-color: lightcoral;
+            overflow: visible;
         }
         h1   {
             color: lightblue;
@@ -10,33 +12,46 @@
         }
         h2 {
             color: lightblue;
-            font-family: 'Brush Script MT', cursive;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: large;
         }
         p    {
             color: lightblue;
         }
-        
-        
+        div{
+            border: 0px solid;
+            padding: 0px; 
+            width: 1300px;
+            height: 2000px;
+            resize: both;
+            overflow: auto;
+        }
         </style>
         </head>
 <body>
     <h1 style="text-align: center;">Favorite Things</h1>
     <p style="text-align: center" >
-    <button onclick="document.location='background.html'">Background</button>
-    <button onclick="document.location='interests.html'">Interests</button>
-    <button onclick="document.location='hobbies.html'">Hobbies</button>
     <button onclick="document.location='index.html'">Home</button>
+    <button onclick="document.location='background.html'">Background</button>
+    <button onclick="document.location='hobbies.html'">Hobbies</button>
+    <button onclick="document.location='interests.html'">Interests</button>
     </p>
 
-    <p><img src="ykmphoto.png" alt="Favorite artist" style="border-style:solid; border-radius: 50%; height: 400px; width: 420;">
-        <h2>My favorite artist is Yayoi Kusama. This is me at her exhibit in D.C.</h2>
+    <p><img src="ykmphoto.png" alt="Favorite artist" style="border-style:solid; border-radius: 50%; height: 400px; width: 420; position: relative; left: 60px;">
+        <h2 style="position: relative; bottom: 220px; left: 500px;">My favorite artist is Yayoi Kusama. This is me at her exhibit in D.C.</h2>
     </p>
 
     <p>
-        <img src="psych.png" alt="Favorite tv show" style="border-style:solid; border-radius: 50%; height: 400; width: 420;">
-        <h2>My favorite artist is Yayoi Kusama. This is me at her exhibit in D.C.</h2>
+        <img src="psych.png" alt="Favorite tv show" style="border-style:solid; border-radius: 50%; height: 400; width: 420; border-color: lightblue; position: relative; bottom: 40px; left: 845px;">
+        <h2 style="color: lightblue; position: relative; bottom: 260px; left: 550px;"">My favorite TV show is "Psych"</h2>
     </p>
 
+    <p>
+        <img src="bacon.png" alt="Favorite food" style="border-style:solid; border-radius: 50%; height: 400; width: 420; border-color: lightblue; position: relative; bottom: 20px; left: 60px;">
+        <h2 style="color: lightblue; position: relative; bottom: 250px; left: 500px;"">My favorite food is bacon</h2>
+    </p>
+
+
 </body>
+</div>
 </html>

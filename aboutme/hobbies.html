@@ -1,4 +1,5 @@
 <html>
+    <div>
     <head>
         <style>
         body {
@@ -11,16 +12,42 @@
         p    {
             color: lightblue;
         }
-        
+        h2 {
+            color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        div{
+            border: 0px solid;
+            padding: 0px; 
+            width: 1300px;
+            height: 2000px;
+            resize: both;
+            overflow: auto;
+        }
         </style>
         </head>
 <body>
     <h1 style="text-align: center;">Hobbies</h1>
     <p style="text-align: center" >
+    <button onclick="document.location='index.html'">Home</button>
     <button onclick="document.location='background.html'">Background</button>
+    <button onclick="document.location='favorites.html'">Favorite Things</button>
     <button onclick="document.location='interests.html'">Interests</button>
-    <button onclick="document.location='index.html'">Home</button>
-    <button onclick="document.location='index.html'">Home</button>
+</p>
+<p><img src="rowing.png" alt="rowing" style="border-style:solid; border-radius: 50%; height: 420px; width: 420; position: relative; left: 60px;">
+    <h2 style="position: relative; bottom: 220px; left: 500px;">I like to row (this is my four heading to the start at a regatta last spring)</h2>
+</p>
+
+<p>
+    <img src="cookies.jpeg" alt="cookies" style="border-style:solid; border-radius: 50%; height: 420px; width: 420; border-color: lightblue; position: relative; bottom: 40px; left: 805;">
+    <h2 style="color: lightblue; position: relative; bottom: 260px; left: 280;">I enjoy baking (these are some cookies I made during Covid)</h2>
+</p>
+
+<p>
+    <img src="boot.jpeg" alt="boot sculpture" style="border-style:solid; border-radius: 50%; height: 400; width: 420; border-color: lightblue; position: relative; bottom: 30px; left: 60px;">
+    <h2 style="color: lightblue; position: relative; bottom: 250px; left: 500px;"">I like to do ceramics (this is a cowboy boot sculpture I made in art last year)</h2>
 </p>
 </body>
+</div>
 </html>
